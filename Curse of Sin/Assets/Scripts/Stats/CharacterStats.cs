@@ -4,7 +4,8 @@ public class CharacterStats : MonoBehaviour
 {
     public int maxHealth = 100;
     public int currentHealth { get; private set; }
-    public Stat LVL;
+    
+    // public Stat LVL;
     public Stat ATK;
     public Stat DEF;
     public Stat SPR;
